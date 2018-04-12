@@ -9,6 +9,8 @@ public class Producto {
 	private String nombre;
 	private String DNI;
 	private String Mascota;
+	private String DuenioMascota;
+	private double celular;
 
     public Producto(int id) {
         this.id = id;
