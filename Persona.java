@@ -13,6 +13,7 @@ public class Producto {
 	private double celular;
 	private double telefono;
 	private int cantidadHijos;
+	private int numeroCasas;
 
     public Producto(int id) {
         this.id = id;
