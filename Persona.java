@@ -14,7 +14,7 @@ public class Producto {
 	private double telefono;
 	private int cantidadHijos;
 	private int numeroCasas;
-	private int numeroCarros;
+	private int tiendas;
 
     public Producto(int id) {
         this.id = id;
