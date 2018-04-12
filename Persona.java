@@ -6,6 +6,7 @@ public class Producto {
 
     private int id;
     private BigDecimal precio;
+	private String nombre;
 
     public Producto(int id) {
         this.id = id;
@@ -31,6 +32,14 @@ public class Producto {
     public void setPrecio(BigDecimal precio) {
         this.precio = precio;
     }
+	
+	public String getNombre(){
+		return nombre;
+	}
+	
+	public void setNombre(String nombre){
+		this.nombre = nombre;
+	}
 
 }
 
