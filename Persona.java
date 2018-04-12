@@ -42,6 +42,10 @@ public class Producto {
 	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
+	
+	public void setNombre(String nombre1){
+		this.nombre = nombre1;
+	}
 
 }
 
