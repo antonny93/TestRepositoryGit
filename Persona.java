@@ -7,6 +7,7 @@ public class Producto {
     private int id;
     private BigDecimal precio;
 	private String nombre;
+	private String DNI;
 
     public Producto(int id) {
         this.id = id;
