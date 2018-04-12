@@ -11,6 +11,7 @@ public class Producto {
 	private String Mascota;
 	private String DuenioMascota;
 	private double celular;
+	private double casa;
 
     public Producto(int id) {
         this.id = id;
